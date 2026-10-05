@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=system-info
+Name=System Information
 Comment=View mate desktop system info
 Exec=mate-system-info
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
