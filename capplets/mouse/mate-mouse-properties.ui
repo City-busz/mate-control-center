@@ -171,7 +171,7 @@ Author: Wolfgang Ulbrich
                 <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
                 <property name="border-width">12</property>
                 <property name="orientation">vertical</property>
-                <property name="spacing">18</property>
+                <property name="spacing">8</property>
                 <child>
                   <object class="GtkBox" id="orientation_vbox">
                     <property name="visible">True</property>
@@ -207,7 +207,7 @@ Author: Wolfgang Ulbrich
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
                             <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
-                            <property name="orientation">vertical</property>
+                            <property name="orientation">horizontal</property>
                             <property name="spacing">6</property>
                             <child>
                               <object class="GtkRadioButton" id="right_handed_radio">
@@ -818,7 +818,7 @@ Author: Wolfgang Ulbrich
                             <property name="can-focus">False</property>
                             <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
                             <property name="orientation">vertical</property>
-                            <property name="spacing">12</property>
+                            <property name="spacing">6</property>
                             <child>
                               <object class="GtkBox" id="cursor_hbox4">
                                 <property name="visible">True</property>
@@ -1000,7 +1000,7 @@ Author: Wolfgang Ulbrich
                 <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
                 <property name="border-width">12</property>
                 <property name="orientation">vertical</property>
-                <property name="spacing">18</property>
+                <property name="spacing">8</property>
                 <child>
                   <object class="GtkCheckButton" id="touchpad_enable">
                     <property name="label" translatable="yes">Enable _touchpad</property>
